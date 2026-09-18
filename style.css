@@ -10,6 +10,16 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 :root {
     --accent: #2ecc71;
 }
